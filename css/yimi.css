@@ -1,0 +1,232 @@
+.head{
+	width: 100%;
+	height: 3.6rem;
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: 0.01rem;
+	position: relative;
+}
+.head_con{
+	width: 10rem;
+	height: 0.74rem;
+	margin: 0 auto;
+	font-family: 'iconfont';
+	color: #fff;
+	line-height: 0.74rem;
+	margin-top: 0.5rem;
+	font-size: 0.6rem;
+}
+.head_con h1{
+	margin-left: 0.6rem;
+	font-size: 0.6rem;
+	line-height: 0.74rem;
+	display: inline-block;
+}
+.head_con h2{
+	margin-left: 5.76rem;
+	font-size: 0.6rem;
+	line-height: 0.74rem;
+	display: inline-block;
+}
+.head img{
+	width: 2.28rem;
+	height: 2.28rem;
+	position: absolute;
+	left: 38%;
+	top: 2rem;
+}
+.head_like{
+	width: 1.06rem;
+	height: 1.06rem;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	right: 0.3rem;
+	top: 3rem;
+	font-family: 'iconfont';
+	color: #FF4F63;
+	font-size: 0.7rem;
+	line-height: 1.06rem;
+	text-align: center;
+}
+.title{
+	width: 8.8rem;
+	height: 4.75rem;
+	margin:  0 auto;
+	margin-top: 0.5rem;
+}
+.title1{
+	margin-top: 1rem;
+}
+.title1 img{
+	width: 0.81rem;
+	height: 0.45rem;
+	margin-left: 0.52rem;
+	margin-top: 0.2rem;
+	float: left;
+	/* display: inline-block; */
+}
+.title1 h1{
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	color: #000;
+	/* display: inline-block; */
+	margin-left: 0.3rem;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}			
+.title2 h1{
+	font-family: 'iconfont';
+	color: #FFB51C;
+	font-size: 0.2rem;
+	margin-left: 1.4rem;
+	line-height: 0.6rem;
+	display: inline-block;
+}
+.title2 h2{
+	color: #363636;
+	font-size: 0.4rem;
+	margin-right: 0.2rem;
+	line-height: 0.6rem;
+	display: inline-block;
+}
+.title4 img{
+	width: 2.94rem;
+	height: 0.67rem;
+	margin-left: 2.4rem;
+}
+.title3 h1{
+	font-size: 0.4rem;
+	color: #9C9C9C;
+	line-height: 0.5rem;
+	font-weight: normal;
+	white-space: nowrap;    /*不换行*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.title5 h1{
+	font-size: 0.4rem;
+	color: #6B6B6B;
+	line-height: 0.4rem;
+}
+.choose1{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 1px solid #F2F2F2;
+	padding-left: 1.36rem;
+	padding-right: 1.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.choose1_1{
+	/* width: 0.87rem;
+	height: 0.8rem; */
+	font-size: 0.44rem;
+	color: #363636;
+	display: inline-block;
+	line-height: 0.44rem;
+	padding-bottom: 0.36rem;
+}
+.choose1_1.active{
+	border-bottom: 0.06rem solid #FFEF05;
+	color: #111111;
+}
+.choose_left{
+	width: 2.16rem;
+	height: auto;
+	float: left;
+}
+.choose_left li{
+	width: 2.16rem;
+	height: 1.44rem;
+	background: #F8F8F8;
+	font-size: 0.4rem;
+	line-height: 1.44rem;
+	text-align: center;
+	color: #666666;
+} 
+.choose_left li.active{
+	background: #fff;
+	color: #363636;
+	font-weight: bold;
+	position: relative;
+}
+.choose_hot{
+	width: 8.68rem;
+	height: 1.14rem;
+	background: #F8F8F8;
+	position: absolute;
+	left: 2.16rem;
+	top: 0;
+	line-height: 1.14rem;
+}
+.choose_hot h1{
+	color: #363636;
+	font-size: 0.4rem;
+	display: inline-block;
+}
+.choose_hot h2{
+	color: #A4A4A4;
+	font-size: 0.3rem;
+	display: inline-block;
+	font-weight: normal;
+}
+.choose_right{
+	width: 8.64rem;
+	height: auto;
+	float: left;
+	padding-top: 1.14rem;
+}
+.choose_right1{
+	width: 8.64rem;
+	height: 4.1rem;
+	margin-top: 0.5rem;
+}
+.choose_right1 img{
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	float: left;
+	margin-right: 0.2rem;
+}
+.choose_right1 p{
+	font-size: 0.5rem;
+	color: #363636;
+	font-weight: bold;
+	line-height: 0.5rem;
+	display: inline-block;
+	white-space: nowrap;    /*不换行*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.choose_right1 h1{
+	font-size: 0.3rem;
+	color: #A4A4A4;
+	line-height: 0.5rem;
+	white-space: nowrap;    /*不换行*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: normal;
+}
+.choose_right1 h2{
+	font-size: 0.3rem;
+	color: #A4A4A4;
+	line-height: 0.5rem;
+	font-weight: normal;
+}
+.choose_dis{
+	width: 1rem;
+	height: 0.4rem;
+	border: 1px solid #FCE4E0;
+	font-size: 0.3rem;
+	color: #EB6552;
+	float: left;
+}
+.choose_right1 h4{
+	font-size: 0.3rem;
+	color: #A4A4A4;
+	line-height: 0.5rem;
+	float: left;
+	font-weight: normal;
+}
